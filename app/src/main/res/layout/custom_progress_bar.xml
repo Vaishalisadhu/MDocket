@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.alessaonline.utilities.progress_bar.MaterialProgressBar
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="189dp"
+        android:indeterminate="true"
+        android:visibility="visible"
+        app:backgroundColour="@color/button_color"
+        app:duration="2000"
+        app:progressColour="@color/utube_link_color" />
+
+    <ProgressBar
+        android:id="@+id/custom_progress_id"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/progress"
+        android:layout_marginTop="24dp"
+        android:indeterminate="true"
+        android:visibility="visible" />
+</RelativeLayout>

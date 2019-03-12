@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Defines the custom XML attributes supported for a HorizontalListView -->
+    <declare-styleable name="HorizontalListView">
+        <attr name="dividerWidth" format="dimension" />
+        <attr name="android:divider" />
+        <attr name="android:requiresFadingEdge" />
+        <attr name="android:fadingEdgeLength" />
+    </declare-styleable>
+
+    <declare-styleable name="DotsLoaderView">
+        <attr name="dlv_item_drawable" format="integer"/>
+        <attr name="dlv_line_color" format="color"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="MaterialProgressBar">
+        <attr name="progressColour" format="color" />
+        <attr name="secondaryProgressColour" format="color" />
+        <attr name="backgroundColour" format="color" />
+        <attr name="duration" format="integer" />
+    </declare-styleable>
+
+</resources>
