@@ -6,13 +6,13 @@ Movie Details. Through the Search bar,the user can easily search by a couple of 
 This app interacts with The Movie Database API.
 
 
-Implementations: 
+#Implementations: 
 
-Database: The Movie Database (TMDb)
-Library: Retrofit 2 & RXJava, RXAndroid (for Networking)
-Piccaso - for images
-Support libraries
-Animation
-Material Design
-Coding Pattern: MVP 
+Database: The Movie Database (TMDb), 
+Library: Retrofit 2 & RXJava, RXAndroid (for Networking), 
+Piccaso - for images, 
+Support libraries, 
+Animation, 
+Material Design, 
+Coding Pattern: MVP,  
 The Movie Database (TMDb).
