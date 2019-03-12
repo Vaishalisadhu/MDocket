@@ -14,5 +14,5 @@ Piccaso - for images
 Support libraries
 Animation
 Material Design
-Coding Pattern: MVP
-The Movie Database (TMDb)
+Coding Pattern: MVP 
+The Movie Database (TMDb).
